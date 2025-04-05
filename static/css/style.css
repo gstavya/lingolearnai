@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.btn-google {
+    background-color: #db4437;
+    color: white;
+}

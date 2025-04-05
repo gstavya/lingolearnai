@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Login - Language Practice App{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center mt-5">Welcome to the Language Practice App</h2>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Login</h5>
+                    <form id="login-form">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        <button type="button" class="btn btn-secondary btn-block" id="google-login">Login with Google</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

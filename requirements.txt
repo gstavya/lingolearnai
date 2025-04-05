@@ -1,0 +1,7 @@
+Flask
+SpeechRecognition
+firebase-admin
+langchain
+langchain-openai
+python-dotenv
+openai
